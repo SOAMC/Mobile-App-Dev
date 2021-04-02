@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="results1">Result1</string>
+    <string name="units1">Units1</string>
+    <string name="results2">Result2</string>
+    <string name="units2">Units2</string>
+    <string name="results3">Result3</string>
+    <string name="units3">Units3</string>
+    <string-array name="units_array">
+        <item>Choose Unit</item>
+        <item>Metre</item>
+        <item>Celsius</item>
+        <item>Kilograms</item>
+    </string-array>
+</resources>
