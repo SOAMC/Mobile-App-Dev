@@ -1,4 +1,4 @@
-package com.example.a31c_quiz_app;
+package com.example.quiz_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
