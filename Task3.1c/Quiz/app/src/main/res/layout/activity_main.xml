@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:layout_weight="0.5"
+        android:gravity="center|top"
+        android:text="SIT305 QUIZ APP"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/out1"
+            android:layout_width="253dp"
+            android:layout_height="69dp"
+            android:gravity="right"
+            android:text="Enter your name:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:background="#673AB7"
+            android:onClick="StartClick"
+            android:text="START"
+            android:textSize="32sp"
+            android:visibility="visible"
+            app:backgroundTint="#673AB7"
+            app:iconTint="#673AB7"
+            app:rippleColor="#673AB7"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
