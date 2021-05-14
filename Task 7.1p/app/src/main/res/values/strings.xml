@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Cookie Notes</string>
+    <string name="create_note_text">CREATE A NEW NOTE</string>
+    <string name="show_notes_text">SHOW ALL NOTES</string>
+    <string name="save_note_text">SAVE</string>
+    <string name="update_note_text">UPDATE</string>
+    <string name="delete_note_text">DELETE</string>
+    <string name="no_notes_stored_text">No note stored. Please add one from the main menu!</string>
+    <string name="note_name_hint">Note name</string>
+    <string name="note_content_hint">Enter your note here</string>
+
+    <!--ImageView content descriptions-->
+    <string name="writing_icon_desc">A writing image icon</string>
+
+    <!--Placeholder texts-->
+    <string name="note_name_placeholder">Note name here</string>
+</resources>
